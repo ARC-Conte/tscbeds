@@ -19,17 +19,21 @@
                 if(type==='mounain man'){
                     document.getElementById("ord").innerHTML+="<br>mounain man price:15";
                     price=price+ 15;
+                    document.getElementById("price").innerHTML=price;
                 }else if(type==="clif hanger"){
                     document.getElementById("ord").innerHTML+="<br>clif hanger price:10";
                     price=price+ 10;
+                    document.getElementById("price").innerHTML=price;
                 }else if(type==='vortex'){
                     document.getElementById("ord").innerHTML+="<br>vortex price:12";
                     price=price+ 12;
+                    document.getElementById("price").innerHTML=price;
                 }else if(type==='party time'){
                     document.getElementById("ord").innerHTML+="<br>party time price:15";
                     price=price+ 15;
+                    document.getElementById("price").innerHTML=price;
                 }else
-                document.getElementById("price").innerHTML=price;
+                
             }
         </script>
     </body>
