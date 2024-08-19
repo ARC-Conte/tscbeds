@@ -32,8 +32,7 @@
                     document.getElementById("ord").innerHTML+="<br>party time price:15";
                     price=price+ 15;
                     document.getElementById("price").innerHTML=price;
-                }else
-                
+                }else                
             }
         </script>
     </body>
