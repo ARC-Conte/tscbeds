@@ -7,10 +7,10 @@
         <div style="overflow:auto; height: 100px;">
             <button onClick="buy('mounain man');">mounain man: 15</button>
             <button onClick="buy('clif hanger');">clif hanger: 10</button>
-            <button onClick="buy('vortex');">vortex: 12</button>
-            <button onClick="buy('plain');">vortex: 10</button>
+            <button onClick="buy('vortex');">vortex: 12</button>            
             <br><br>
             <button onClick="buy('party time');">party time: 15</button>
+            <button onClick="buy('plain');">plain: 10</button>
         </div>
         <div id="ord">Order:</div>
         <span id="price"></span>
