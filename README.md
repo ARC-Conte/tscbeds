@@ -4,7 +4,7 @@
         <title>New webpage</title>
     </head>
     <body>
-        <div style="overflow:auto; height: 500px;width:50%;">
+        <div style="overflow:auto; height: 200px;width:50%;">
             <button onClick="buy('party time');">party time:<br>20</button>
             <button onClick="buy('smily');">smily:<br>19</button>      
             <button onClick="buy('mounain man');">mounain man:<br>17</button>
