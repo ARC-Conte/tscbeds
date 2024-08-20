@@ -18,7 +18,7 @@
         </div>
         <div id="ord">Order:</div>
         <span id="price"></span>
-<input type="button" value="Print  Order" onclick="print()" />
+<input type="button" value="Print this page" onclick="printPage()" />
         <script>    
             var price =0;    
             function buy(type){                
@@ -44,9 +44,9 @@
                     document.getElementById("price").innerHTML=price;
                 }         
             }
-            function print(){
-                window.print();
-            }
+            function printPage() {
+  window.print();
+}
         </script>
     </body>
 </html>
