@@ -13,6 +13,7 @@
         </div>
         <div id="ord">Order:</div>
         <span id="price"></span>
+        <button onClick="print();">Print Order</button>
         <script>    
             var price =0;    
             function buy(type){                
@@ -37,6 +38,9 @@
                     price=price+ 14;
                     document.getElementById("price").innerHTML=price;
                 }         
+            }
+            function print(){
+                window.print();
             }
         </script>
     </body>
