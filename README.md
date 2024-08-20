@@ -7,7 +7,7 @@
         <div style="overflow:auto; height: 100px;">
             <button onClick="buy('mounain man');">mounain man: 15</button>
             <button onClick="buy('clif hanger');">clif hanger: 10</button>
-            <button onClick="buy('vortex');">vortex: 12</button>            
+            <button onClick="buy('smily');">smily: 12</button>            
             <br><br>
             <button onClick="buy('party time');">party time: 15</button>
             <button onClick="buy('plain');">plain: 10</button>
@@ -25,8 +25,8 @@
                     document.getElementById("ord").innerHTML+="<br>cliff hanger price: 10";
                     price=price+ 10;
                     document.getElementById("price").innerHTML=price;
-                }else if(type==='vortex'){
-                    document.getElementById("ord").innerHTML+="<br>vortex price: 12";
+                }else if(type==='smily'){
+                    document.getElementById("ord").innerHTML+="<br>smily price: 12";
                     price=price+ 12;
                     document.getElementById("price").innerHTML=price;
                 }else if(type==='party time'){
