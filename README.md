@@ -9,7 +9,7 @@
             <button onClick="buy('smily');">smily:<br>19</button>      
             <button onClick="buy('mounain man');">mounain man:<br>17</button>
             <button onClick="buy('clif hanger');">clif hanger:<br>17</button>          
-            <button onClick="buy('plain');">plain: 14</button>
+            <button onClick="buy('plain');">plain:<br>14</button>
         </div>
         <div id="ord">Order:</div>
         <span id="price"></span>
