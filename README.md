@@ -22,7 +22,7 @@
                     price=price+ 15;
                     document.getElementById("price").innerHTML=price;
                 }else if(type==="clif hanger"){
-                    document.getElementById("ord").innerHTML+="<br>clif hanger price: 10";
+                    document.getElementById("ord").innerHTML+="<br>cliff hanger price: 10";
                     price=price+ 10;
                     document.getElementById("price").innerHTML=price;
                 }else if(type==='vortex'){
@@ -34,7 +34,7 @@
                     price=price+ 15;
                     document.getElementById("price").innerHTML=price;
                 }else if(type==='plain'){
-                    document.getElementById("ord").innerHTML+="<br>party time price: 10";
+                    document.getElementById("ord").innerHTML+="<br>plain price: 10";
                     price=price+ 10;
                     document.getElementById("price").innerHTML=price;
                 }         
