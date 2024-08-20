@@ -2,6 +2,11 @@
     <head>
         <meta charset="utf-8">
         <title>New webpage</title>
+        <style>
+            button{
+                background-color:white;
+            }
+        </style>
     </head>
     <body>
         <div style="overflow:auto; height: 200px;width:50%;">
