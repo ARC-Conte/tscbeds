@@ -18,7 +18,7 @@
         </div>
         <div id="ord">Order:</div>
         <span id="price"></span>
-        <button onClick="print();">Print Order</button>
+<input type="button" value="Print  Order" onclick="print()" />
         <script>    
             var price =0;    
             function buy(type){                
